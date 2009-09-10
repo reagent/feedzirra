@@ -247,7 +247,7 @@ module Feedzirra
     # An abstraction for adding a feed by a Feed object to the passed Curb::multi stack.
     #
     # === Parameters
-    # [multi<Curl::Multi>] The Curl::Multi object that the request should be added too.
+    # [multi<Curl::Multi>] The Curl::Multi object that the request should be added to.
     # [feed<Feed>] A feed object that you would like to be fetched.
     # [url_queue<Array>] An array of feed objects that are queued for request.
     # [responses<Hash>] Existing responses that you want the response from the request added to.
