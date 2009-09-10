@@ -29,6 +29,10 @@ describe Feedzirra::Parser::RSS do
       @feed.url.should == "http://tenderlovemaking.com"
     end
     
+    it "should parse the description" do
+      @feed.description.should == 'The act of making love, tenderly.'
+    end
+    
     it "should provide an accessor for the feed_url" do
       @feed.respond_to?(:feed_url).should == true
       @feed.respond_to?(:feed_url=).should == true
